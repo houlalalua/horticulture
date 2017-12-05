@@ -1,0 +1,10 @@
+
+# Lumière minimum pour que les fleurs puissent pousser.
+# Doit être une valeur entre 0 et 14 inclus (10 par défaut).
+LUMIERE_MIN (Lumière Minimum) int 10 0 14
+
+# Si activé (par défaut), les fleurs ne pousseront que le jour (aube jusqu'au crépuscule).
+# Cela signifie que même si la lumière est suffisante pour que la fleur
+# puisse grandir, elle ne pourra le faire que pendant la journée.
+# Autrement cela n'aura aucune incidence sur sa croissance.
+JOUR_SEULEMENT (Pousse Le Jour Seulement) bool true
